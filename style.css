@@ -6,27 +6,29 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  max-width: 100vw;
-  max-height: 100vh;
-}
+@media (orientation: landscape) {
+  body {
+    width: 100%;
+    height: 810px;
+  }
 
-nav {
-  background: red;
-  height: 6vh;
-}
+  nav {
+    background: red;
+    height: 6%;
+  }
 
-h3 {
-  padding: 10px;
-  color: #fff;
-}
+  h3 {
+    padding: 10px;
+    color: #fff;
+  }
 
-div {
-  height: 90vh;
-  background: yellow;
-}
+  div {
+    height: 90%;
+    background: yellow;
+  }
 
-footer {
-  height: 4vh;
-  background: green;
+  footer {
+    height: 4%;
+    background: green;
+  }
 }
