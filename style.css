@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+nav {
+  background: red;
+  height: 6vh;
+}
+
+h3 {
+  padding: 10px;
+  color: #fff;
+}
+
+div {
+  height: 90vh;
+  background: yellow;
+}
+
+footer {
+  height: 4vh;
+  background: green;
+}
